@@ -12,7 +12,7 @@ The dependent variable or response is the "classe" variable in the training set.
 #download.file("https://d396qusza40orc.cloudfront.net/predmachlearn/pml-training.csv", destfile = "./pml-training.csv")
 #download.file("http://d396qusza40orc.cloudfront.net/predmachlearn/pml-testing.csv", destfile = "./pml-testing.csv")
 
-setwd("C:/Users/murughan/Desktop/coursera")
+setwd("C:/Users/meenakshi/Desktop/coursera")
 
 trainingOrg = read.csv("pml-training.csv", na.strings=c("", "NA", "NULL"))
 # data.train =  read.csv("https://d396qusza40orc.cloudfront.net/predmachlearn/pml-training.csv", na.strings=c("", "NA", "NULL"))
